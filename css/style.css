@@ -25,7 +25,6 @@ body {
     margin: 0px;
     max-width: 600px;
     width: 100%;
-
 }
 
 .container-header {
@@ -190,5 +189,3 @@ form button:hover {
 .form-input {
     width: 5%;
 }
-
-.data {}
