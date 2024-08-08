@@ -127,8 +127,12 @@ body {
 }
 
 .date img {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 10px;
+}
+
+.calendar {
+    width: 80%;
 }
 
 
