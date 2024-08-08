@@ -56,7 +56,7 @@ body {
     right: 0;
     bottom: 0;
     background: linear-gradient(to bottom, rgba(231, 227, 227, 0.316), rgba(239, 231, 231, 0.41)), url(/photo/hero.jpg) center/cover no-repeat;
-    z-index: 1;
+    z-index: 100;
 }
 
 .header h1 {
