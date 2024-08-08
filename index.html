@@ -40,36 +40,21 @@
         <h3 class="we-family">Save the date</h3>
         <div class="date">
           <p class="data">08.10.2024</p>
-          <img src="./photo/calendar.jpg" alt="calendar" />
+          <img class="calendar" src="./photo/calendar.jpg" alt="calendar" />
           <!-- <h3>Место</h3> -->
-          <p>Место проведения церемония: Кипр, г. Пафос, Белые скалы</p>
+          <p>Место проведения церемонии: Кипр, г. Пафос, Белые скалы</p>
           <img src="photo/кипр.jpg" class="photo-kipr" alt="кипр" />
         </div>
       </div>
       <div class="details">
-        <h3>Программа нашего праздника</h3>
+        <h3 class="details-h">Программа нашего праздника</h3>
         <ul>
-          <li>14:00 - Сбор гостей на трансфер</li>
-          <li>15:00 - Фуршет с лёгкими закусками</li>
           <li>16:00 - Выездная церемония бракосочетания</li>
-          <li>16:30 - Фотосессия с гостями</li>
-          <li>17:00 - Банкет и программа ведущего</li>
-          <li>22:00 - Торт и салют</li>
+          <li>16:30 - Фотосессия</li>
+          <li>17:00 - Прогулка по пляжу</li>
         </ul>
-        <p>Сбор гостей по адресу: <br />Кипр, г. Пафос, Белые скалы</p>
-        <h3>Дресс-код</h3>
-        <p>
-          Мы будем рады видеть вас в любом наряде, но нам будет ещё приятнее,
-          если вы поддержите общую гамму нашего торжества
-        </p>
-        <div class="colors">
-          <div class="color" style="background-color: #dfc8b4"></div>
-          <div class="color" style="background-color: #ede6de"></div>
-          <div class="color" style="background-color: #a3b49e"></div>
-          <div class="color" style="background-color: #575645"></div>
-        </div>
-        <img src="dresscode.jpg" alt="Дресс-код" />
-        <h3>Подтвердите свое присутствие</h3>
+
+        <h3 class="details-h">Подтвердите свое присутствие</h3>
         <form class="form-label">
           <label class="label">
             <input
@@ -89,8 +74,26 @@
             />
             Не буду/Не будем
           </label>
+          <label class="label label-last">
+            <input
+              class="form-input"
+              type="radio"
+              name="attendance"
+              value="do not"
+            />
+            Не готов(-ва) ответить, но будет известно не позже 1.10</label
+          >
           <input type="text" name="name" placeholder="Имя" />
-          <input type="tel" name="phone" placeholder="Телефон" />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Телефон / ник в телеграмме"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Если будете не одни,укажите вашу компанию"
+          />
           <button type="submit">Отправить</button>
         </form>
         <div class="contacts"></div>
