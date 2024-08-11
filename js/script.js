@@ -21,9 +21,10 @@ const countdown = setInterval(() => {
 }, 1000);
 
 (function () {
-  emailjs.init("service_9ee9799");
+  emailjs.init({
+    publicKey: "D3ZlPSnjmjaLmMGnj",
+  });
 })();
-
 document
   .getElementById("form-label")
   .addEventListener("submit", function (event) {
@@ -36,6 +37,8 @@ document
       phone: document.querySelector('input[name="phone"]').value,
       message: document.querySelector('input[name="message"]').value,
     };
+    console.log(templateParams);
+
     emailjs.send("service_9ee9799", "template_affdyt8", templateParams).then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);
