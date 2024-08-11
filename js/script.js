@@ -22,7 +22,7 @@ const countdown = setInterval(() => {
 
 (function () {
   emailjs.init({
-    publicKey: "O31tBm0_vIGLi8Oj4",
+    publicKey: "ZEh4gCQsQVpg4KFU9",
   });
 })();
 document
@@ -39,7 +39,7 @@ document
     };
     console.log(templateParams);
 
-    emailjs.send("service_9ee9799", "template_affdyt8", templateParams).then(
+    emailjs.send("service_gxzwm8v", "template_pi91w2t", templateParams).then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);
         alert("Сообщение отправленно");
