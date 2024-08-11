@@ -59,7 +59,7 @@
         </ul>
 
         <h3 class="details-h">Подтвердите свое присутствие</h3>
-        <form class="form-label">
+        <form class="form-label" id="form-label">
           <label class="label">
             <input
               class="form-input"
@@ -89,13 +89,14 @@
           >
           <input type="text" name="name" placeholder="Имя" />
           <input
-            type="tel"
+            type="text"
             name="phone"
             placeholder="Телефон / ник в телеграмме"
+            value=""
           />
           <input
             type="text"
-            name="name"
+            name="message"
             placeholder="Если будете не одни,укажите вашу компанию"
           />
           <button type="submit">Отправить</button>
@@ -103,6 +104,7 @@
         <div class="contacts"></div>
       </div>
     </div>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="module" src="./js/script.js"></script>
   </body>
 </html>
