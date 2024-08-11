@@ -42,7 +42,7 @@ document
     emailjs.send("service_gxzwm8v", "template_pi91w2t", templateParams).then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);
-        alert("Сообщение отправленно");
+        alert("Спасибо за ответ");
       },
       function (error) {
         console.log("FAILED...", error);
