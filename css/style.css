@@ -28,6 +28,10 @@ body {
 
 }
 
+.details {
+    padding-bottom: 24px;
+}
+
 .container-header {
     height: 80%;
     position: relative;
