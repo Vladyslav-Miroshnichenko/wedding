@@ -22,7 +22,7 @@ const countdown = setInterval(() => {
 
 (function () {
   emailjs.init({
-    publicKey: "D3ZlPSnjmjaLmMGnj",
+    publicKey: "O31tBm0_vIGLi8Oj4",
   });
 })();
 document
